@@ -1,0 +1,9 @@
+{
+  "name": "@liuxspro/webp-to-png",
+  "version": "0.0.2",
+  "license": "MIT",
+  "exports": "./main.ts",
+  "publish": {
+    "include": ["README.md", "main.ts", "wasm_webp_to_png/wasm_webp_to_png.js"]
+  }
+}
