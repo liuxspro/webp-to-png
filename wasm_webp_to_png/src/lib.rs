@@ -3,7 +3,7 @@ use std::io::Cursor;
 use wasm_bindgen::prelude::*;
 
 fn handle_error(err: ImageError) -> JsValue {
-    JsValue::from_str(&format!("Error haha: {:?}", err))
+    JsValue::from_str(&format!("Error: {:?}", err))
 }
 
 #[wasm_bindgen]
