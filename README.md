@@ -1,5 +1,7 @@
 # Convert a webp image to png
 
+[![JSR](https://jsr.io/badges/@liuxspro/webp-to-png)](https://jsr.io/badges/@liuxspro/webp-to-png)
+
 using [image](https://github.com/image-rs/image) to convert webp image  
 using [wasm-pack](https://rustwasm.github.io/wasm-pack/) compiled to wasm  
 using [@libs/bundle](https://jsr.io/@libs/bundle) to bundle wasm  
